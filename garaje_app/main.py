@@ -1,4 +1,4 @@
-# Importamos la clase de la interfaz
+# Importa la clase de la interfaz gráfica
 from ui.app_tkinter import App
 
 
@@ -11,7 +11,7 @@ def main():
     # Se ejecuta la interfaz gráfica
     app.run()
 
-
 # Punto de entrada del programa
 if __name__ == "__main__":
     main()
+
