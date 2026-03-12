@@ -7,3 +7,8 @@ class Vehiculo:
         self.placa = placa
         self.marca = marca
         self.propietario = propietario
+
+        # Método para obtener los datos del vehículo
+    def obtener_datos(self):
+        return self.placa, self.marca, self.propietario
+

@@ -95,10 +95,13 @@ class App:
 
         # Insertar vehículos en la tabla
         for vehiculo in self.servicio.listar_vehiculos():
+
+            datos = vehiculo.obtener_datos()
+
             self.tabla.insert(
                 "",
                 "end",
-                values=(vehiculo.placa, vehiculo.marca, vehiculo.propietario)
+                values=datos
             )
 
     # Método para limpiar los campos del formulario
