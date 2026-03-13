@@ -2,8 +2,10 @@
 class Vehiculo:
 
     # Constructor de la clase
-    # Inicializa los atributos del vehículo
-    def __init__(self, placa, marca, propietario):
+    # placa: str -> cadena que identifica al vehículo
+    # marca: str -> cadena que indica la marca del vehículo
+    # propietario: str -> cadena con el nombre del dueño
+    def __init__(self, placa: str, marca: str, propietario: str):
         self.placa = placa
         self.marca = marca
         self.propietario = propietario
